@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <title>Map And Slider</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+	<body class="container">
+		<nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="myculturalattire.html">My Cultural Attire</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>   
+        </nav>
+		<h1 class="text-center">My First Google Map</h1>
+		<div id="googleMap">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23716.952183886573!2d-87.71155814532729!3d42.00845116955355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd1d6297e6863%3A0xcbcf347a186c3352!2sChicago%2C%20IL%2060645%2C%20USA!5e0!3m2!1sen!2s!4v1574966505564!5m2!1sen!2s" width="768" height="450" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+
+		<h2 class="text-center">Manual Slideshow</h2>
+		<div class="slider-content slider-display-container">
+		  	<img class="mySlides" src="media/1.jpg" alt="img" style="width:100%">
+		  	<img class="mySlides" src="media/2.jpg" alt="img" style="width:100%">
+		  	<img class="mySlides" src="media/3.jpg" alt="img" style="width:100%">
+		  	<button class="slider-button slider-black slider-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		  	<button class="slider-button slider-black slider-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
