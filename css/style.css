@@ -35,12 +35,19 @@ nav ul li{
     font-family: 'Roboto';
     padding: 16px;
     display:inline-block;
+    text-align: center;
 }
 .h1{
     font-size: 2em;
+    text-align: center;
 }
 p{
     font-size: 16px;
+    text-align: center;
+}
+h4{
+    font-size: 16px;
+    text-align: left;
 }
 .name-span{
     color: #ffebcd;
@@ -123,10 +130,6 @@ p{
     cursor: pointer;
     white-space: nowrap;
 }
-#googleMap{
-    width: 768px;
-    margin: 0 auto;
-}
 .slider-black, .slider-hover-black:hover {
     color: #fff!important;
     background-color: #000!important;
@@ -140,7 +143,6 @@ p{
     }
     nav ul li {
         padding: 8px;
-        font-size: 14px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -153,6 +155,5 @@ p{
     }
     nav ul li {
         padding: 16px;
-        font-size: 16px;
     }
 }
